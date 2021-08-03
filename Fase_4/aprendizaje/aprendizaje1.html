@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="../../img/htmldesign.PNG" width="400px">
+    </header>
+    <div class="menu">
+        <nav role="navigation">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="#">TEMAS</a>
+                    <ul class="dropdown">
+                        <li><a href="etiquetas.html">ETIQUETAS SEMÁNTICAS</a></li>
+                        <li><a href="listas.html">LISTAS</a></li>
+                        <li><a href="enlaces.html">ENLACES</a></li>
+                    </ul>
+                </li>
+                <li><a href="../recursos.html">RECURSOS</a></li>
+                <li><a href="#">APRENDIZAJE</a>
+                    <ul class="dropdown">
+                        <li><a href="../aprendizaje/aprendizaje1.html">APRENDIZAJE 1</a></li>
+                        <li><a href="../aprendizaje/aprendizaje2.html">APRENDIZAJE 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="../autor.html">AUTOR</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <div class="content-page">
+        <form>
+            <div class="form-group">
+                <label for="Nombre de la persona que realiza el cuestionario">Ingrese su nombre completo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Nombres y apellidos">
+                <small id="emailHelp" class="form-text text-muted">Nombres y apellidos de quien realiza el
+                    cuestionario.</small>
+            </div>
+            <div class="form-group">
+                <label for="Nombre de la persona que realiza el cuestionario">Curso inscrito</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Curso">
+                <small id="emailHelp" class="form-text text-muted">Puede incluir mas de un curso.</small>
+            </div>
+            <article>
+
+                <p>A continuación realizará un cuestionario referente a la tematica de Etiquetas semanticas, por lo que
+                    le recomendamos revisar los siguientes enlaces antes de realizarlo, con el fin de que pueda obtener
+                    el mayor puntaje posible.</p>
+                <p>
+                    <a href="https://dev.to/sapardo/etiquetas-semanticas-de-html5-3j7m">• Etiquetas semánticas de HTML5
+                        - https://dev.to/sapardo/etiquetas-semanticas-de-html5-3j7m</a>
+                    <br><a href="https://www.aulaclic.es/articulos/html5-semantica_1.html">• Nuevas etiquetas semánticas
+                        - https://www.aulaclic.es/articulos/html5-semantica_1.html</a>
+                </p>
+                <h3>Cuestionario Etiquetas semánticas</h3>
+            </article>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">1. Describa con sus palabras ¿Qué son las etiquetas
+                    semánticas?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Descripción - max 500 caracteres"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">2. De acuerdo a lo revisado en los enlaces anteriores, ¿Cuál de las
+                    siguientes no es una etiqueta semántica?</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">
+                        < header>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">
+                        < nav>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">
+                        < section>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">
+                        < HTML5>
+                    </label>
+                </div>
+            </div>
+            <!-- <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div> -->
+            <button type="submit" class="btn btn-primary">Cargar</button>
+        </form>
+        <!-- <article>
+            
+            <p>El presente modulo se trabajará en la siguiente fase, sin embargo se incluye en la sección algunas referencias.</p>
+            <h3>Etiquetas semánticas</h3>
+            <p> 
+                <a href="https://dev.to/sapardo/etiquetas-semanticas-de-html5-3j7m">• Etiquetas semánticas de HTML5 - https://dev.to/sapardo/etiquetas-semanticas-de-html5-3j7m</a>
+                <br><a href="https://www.aulaclic.es/articulos/html5-semantica_1.html">• Nuevas etiquetas semánticas - https://www.aulaclic.es/articulos/html5-semantica_1.html</a>                 
+            </p>
+            <h3>Listas</h3>
+            <p> 
+                <a href="http://www.manualweb.net/html/listas-html/">• Listas de HTML - http://www.manualweb.net/html/listas-html/</a>
+                <br><a href="https://tutobasico.com/listas-en-html/">• Tipos de listas - https://tutobasico.com/listas-en-html/</a>                 
+            </p>
+            <h3>Enlaces</h3>
+            <p> 
+                <a href="http://www.manualweb.net/html/enlaces-html/">• Enlaces en html - http://www.manualweb.net/html/enlaces-html/</a>
+                <br><a href="https://desarrolloweb.com/articulos/573.php">• Sintaxis y tipos de enlaces - https://desarrolloweb.com/articulos/573.php</a>                 
+            </p>
+        </article> -->
+
+    </div>
+    <br>
+
+    <footer>Skype: nataliaisaacch2 / 28 de Junio de 2021</footer>
+</body>
+
+</html>

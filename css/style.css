@@ -2,11 +2,15 @@ body{
   font-family: "Lato", sans-serif;
   font-size: 20px;
   line-height: 1.5;
-  background-color: #e4e4e4;
+  background-color: #e4e4e4 !important;
   
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #FFF !important;
 }
 
 nav {
@@ -21,23 +25,24 @@ ul {
 }
 
 li {
-  color: #fff;
-  background: darkorange;
-  display: block;
-  float: left;
-  padding: 1rem;
-  position: relative;
-  text-decoration: none;
-  transition-duration: 0.5s;
+  color: #fff !important;
+  background: darkorange !important;
+  display: block !important;
+  float: left !important;
+  padding: 1rem !important;
+  position: relative !important;
+  text-decoration: none !important;
+  transition-duration: 0.5s !important;
 }
 
 li a {
   color: #fff;
+  font: 20px monospace;
 }
 
 li:hover {
-  background: red;
-  cursor: pointer;
+  background: red !important;
+  cursor: pointer !important;
 }
 
 ul li ul {
@@ -45,7 +50,7 @@ ul li ul {
   visibility: hidden;
   opacity: 0;
   min-width: 5rem;
-  position: absolute;
+  position: absolute !important;
   transition: all 0.5s ease;
   margin-top: 1rem;
   left: 0;
@@ -54,9 +59,9 @@ ul li ul {
 
 ul li:hover > ul,
 ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
 }
 
 ul li ul li {
